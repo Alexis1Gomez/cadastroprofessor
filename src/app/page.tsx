@@ -25,7 +25,7 @@ export default function Dashboard() {
       </aside>
 
       {/* Main Content */}
-      <main className="flex-1 p-5 bg-blue-200">
+      <main className="flex-1 p-5 bg-blue-300">
         <div className="flex justify-between items-center">
           <h2 className="text-2xl font-semibold">Lista de Alumnos</h2>
           <div className="flex items-center bg-white p-2 rounded-md shadow-md">
