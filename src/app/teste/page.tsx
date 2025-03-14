@@ -11,7 +11,7 @@ export default function Dropdown() {
       {/* Botón principal */}
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center justify-between w-full px-4 py-2 bg-gray-200 text-gray-800 rounded-xl shadow-md"
+        className="flex items-center justify-between w-[21rem] px-4 py-2 bg-gray-200 text-gray-800 rounded-lg shadow-md"
       >
         <div className="flex items-center gap-2">
           <Users className="w-5 h-5" />
@@ -31,4 +31,4 @@ export default function Dropdown() {
       )}
     </div>
   );
-}
+}        

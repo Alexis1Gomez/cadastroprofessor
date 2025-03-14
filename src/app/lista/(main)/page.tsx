@@ -1,16 +1,17 @@
 "use client";
 import { useState, useEffect } from "react";
-import { User, Bell, HelpCircle, Settings, LogOut } from "lucide-react";
+import { User, Bell, HelpCircle, Settings, LogOut, Mail, Lock, GraduationCap } from "lucide-react";
 import { FaEdit, FaTrash, FaSearch, FaPlus, FaArrowLeft } from "react-icons/fa";
 import React from "react";
-import Image from "next/image";
+import Image from "next/image"; 
+
 
 const CadastroProfessor = () => {
   return (
     <main className="flex-1 ">
       <div className="">
         <div className="flex p-19 justify-between">
-          <h2 className=" flex  text-2xl font-semibold text-white ">
+          <h2 className=" flex  text-2xl font- text-white ">
             Cadastro de Professor
           </h2>
           <button className="bg-white text-black px-4 py-2 rounded flex items-center">
@@ -29,11 +30,8 @@ const CadastroProfessor = () => {
                   Nome do Professor <span className="text-red-800">*</span>
                 </label>
                 <div className="relative">
-                  <input
-                    type="text"
-                    className="w-[30rem] p-3 pl-10 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 bg-[#D9D9D9]" 
-                  />
-                  <span className="absolute left-3 top-3 text-gray-500"></span>
+                  <input   type="text" className="w-[30rem] p-3 pl-10 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 bg-[#D9D9D9]"/>
+                  <span className="absolute left-3 top-3 text-gray-800"><User className="w-6 h-6 text-[#000]" /></span>
                 </div>
               </div>
 
@@ -61,7 +59,7 @@ const CadastroProfessor = () => {
                     type="email"
                     className="w-[30rem] p-3 pl-10 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-[#D9D9D9]"
                   />
-                  <span className="absolute left-3 top-3 text-gray-500"></span>
+                  <span className="absolute left-3 top-3 text-gray-500"><Mail /></span>
                 </div>
               </div>
 
@@ -70,7 +68,7 @@ const CadastroProfessor = () => {
                 <label className="text-white font-semibold">Matrícula</label>
                 <div className="relative">
                   <input className="w-full p-3 border rounded-lg bg-[#D9D9D9]"/>
-                  <span className="absolute left-3 top-3 text-gray-500"></span>
+                  <span className="absolute left-3 top-3 text-gray-500"><GraduationCap /></span>
                 </div>
               </div>
 
@@ -96,7 +94,7 @@ const CadastroProfessor = () => {
                     type="password"
                     className="w-full p-3 pl-10 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-[#D9D9D9]"
                   />
-                  <span className="absolute left-3 top-3 text-gray-500"></span>
+                  <span className="absolute left-3 top-3 text-gray-500"><Lock /></span>
                 </div>
               </div>
 
@@ -110,7 +108,7 @@ const CadastroProfessor = () => {
                     type="password"
                     className="w-full p-3 pl-10 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-[#D9D9D9]"
                   />
-                  <span className="absolute left-3 top-3 text-gray-500"></span>
+                  <span className="absolute left-3 top-3 text-gray-500"><Lock /></span>
                 </div>
               </div>
 
