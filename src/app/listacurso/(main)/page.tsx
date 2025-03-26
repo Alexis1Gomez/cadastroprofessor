@@ -20,7 +20,7 @@ const data = [
 ];
 
 
-const CadastroProfessor = () => {
+const ListaCurso = () => {
   return ( 
     <div>  
       <div className="flex p-19 justify-between">
@@ -76,4 +76,4 @@ const CadastroProfessor = () => {
   );
 };  
 
-export default CadastroProfessor;
+export default ListaCurso;
