@@ -117,7 +117,7 @@ const CadastroProfessor = () => {
               {/* Botón de Guardar */}
               <div className="col-span-2 flex justify-center mt-4">
                 <button className="bg-green-500 border border-black text-white py-3 px-20 rounded-lg font-semibold hover:bg-green-600 transition">
-                  SALVAR
+                  SALVARR
                 </button>
               </div>
             </form>
