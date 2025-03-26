@@ -27,7 +27,7 @@ const CadastroProfessor = () => {
               {/* Nome do Aluno */}
               <div>
                 <label className="text-white font-semibold">
-                  Nome do Professor <span className="text-red-800">*</span>
+                  Nome do Professor <span className="text-red-700">*</span>
                 </label>
                 <div className="relative">
                   <input   type="text" className="w-[40rem] p-3 pl-10  rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 bg-[#D9D9D9]"/>
